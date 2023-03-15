@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <style>
+        .abc{
+            border: 4px solid;
+            display: inline-flex;
+            justify-content: center;
+            height:auto;
+            margin:0% 30% 30% 5%;          
+            padding: 3% 2% 3% 2%;
+            border-radius: 10px;
+        }
+        h3{
+            font-size: 20px;
+            margin-top: 10%;
+            margin-bottom: 3%;
+            
+        }
+        body{
+            display:inline-flex;
+            justify-content:center;
+            margin: 10% 1% 1% 15%;
+            
+        }
+        .cba{
+            
+            font-family: 'Times New Roman', Times, serif;
+            margin: 9% 1% 28% 10%;
+            animation-fill-mode: backwards;
+            font-size: 30px;
+            
+        }
+        
+        input[type='submit']{
+            
+            padding: 10px;
+            width: 100%;
+            background-color: rgb(197, 216, 189);
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-size: large;
+            border-radius: 10px;
+            border: 0px;
+            margin: 5px 0px 0px 0px ;
+            
+        }
+
+        input[type='reset']{
+        
+            padding: 10px;
+            width: 100%;
+            background-color: rgb(238, 238, 211);
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-size: large;
+            border-radius: 10px;
+            border: 0px;
+            margin: 5px 0px 0px 0px ;
+            
+        }
+        input{
+            font-size: 112%;
+        }
+        
+    </style>
+</head>
+<body> 
+
+    <div class="cba">
+        <p></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ab, ducimus quo nisi ipsam, debitis soluta illo similique sapiente 
+    </p>
+    </div>
+    <div class="abc">
+    <form >
+       <h3 for="UserName"> User Name </h3>
+        <input type="text" name="UserName" id="">
+        <h3 for="UserEmail">User Email</h3>
+        <input type="email" name="UserEmail" id="">
+        <section>
+            <h3>Color</h3>
+        <input type="checkbox" name="color" value="red" id=""> Red
+        <input type="checkbox" name="color" value="Green" id="">  Green
+        <input type="checkbox" name="color" value="Blue" id=""> Blue
+    </section>
+    <section>
+        <h3>Gender</h3>
+        <input type="radio" name="Gender" id="" placeholder="" value="Male">Male
+        <input type="radio" name="Gender" id="" placeholder="" value="Female">Female
+        <input type="radio" name="Gender" id="" placeholder="" value="Other">Other
+    </section>
+    <h3> User password </h3>
+    <section>
+   <input type="password" name="" id="" placeholder="Password">
+    </section>
+    <section class="butt">
+     <input type="reset" value="Reset">
+     <input type="submit" value="submit">
+    </section>
+
+</form>
+    </div>
+</body>
+</html>
